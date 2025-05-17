@@ -43,12 +43,8 @@ Web sitesi aşağıdaki temel sayfalardan oluşmaktadır:
 
 ## 5. Ekran Görüntüleri
 
-> İsteğe bağlı olarak ekran görüntüleri buraya eklenebilir. Örneğin:
+> İsteğe bağlı olarak ekran görüntüleri buraya eklenebilir. 
 
-![Anasayfa Görseli]([https://muhammedenesbostanci.github.io/Cafe-Sitesi/img/anasayfa.png](https://muhammedenesbostanci.github.io/Cafe-Sitesi/index.html))
-![Menü Sayfası]([https://muhammedenesbostanci.github.io/Cafe-Sitesi/img/menu.png](https://muhammedenesbostanci.github.io/Cafe-Sitesi/hizmetler.html))
-
----
 
 ## 6. Kurulum / Kullanım Talimatları
 
