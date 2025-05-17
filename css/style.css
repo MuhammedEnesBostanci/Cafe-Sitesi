@@ -1,0 +1,494 @@
+/* style.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #212529;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.navbar .navbar-brand img {
+  border-radius: 6px;
+}
+
+.navbar .nav-link {
+  color: #f9f6f1 !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border-color: rgba(249, 246, 241, 0.3);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 70%;
+  margin: auto;
+  color: #fff;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.btn-outline-dark {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: auto;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+/* Hover efektleri resimler için */
+.carousel-inner img:hover,
+.card-img-top:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive ayarlar */
+@media (max-width: 576px) {
+  .carousel-inner img {
+    height: 250px;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+/* Carousel yazı renkleri beyaz olsun */
+.carousel-caption h2,
+.carousel-caption p {
+  color: white !important;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Daha okunaklı olması için gölge */
+}
+
+
+
+/* css/style.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 i {
+  color: #212529;
+  margin-right: 8px;
+}
+
+h2, h3 {
+  color: #212529;
+  font-weight: 600;
+}
+
+.timeline ul {
+  padding-left: 0;
+}
+
+.timeline li {
+  list-style: none;
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #212529;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer.footer {
+  width: 100vw;          /* Tam ekran genişliği */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;    /* Kenarlara sıfır boşluk için */
+  margin-right: -50vw;
+  background-color: #212529 !important; /* Bootstrap bg-dark renk kodu */
+  color: #F5F5F5 !important;
+  padding: 30px 0 !important;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 10;
+}
+footer.footer .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+}
+
+
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffc107 !important;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+
+/* Temel body ve layout ayarları */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* main alanı footer altına esnek şekilde oturması için */
+main {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-brand, 
+.nav-link {
+  color: #ffc107 !important;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+/* Kartlar */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Kart üstündeki resimler */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Başlıklar */
+h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Footer */
+footer.footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+nav.navbar .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffc107 !important;
+  font-weight: 500;
+}
+
+.btn-custom {
+  background-color: #343a40;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #f9f6f1;
+  color: #343a40;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25);
+  border-color: #343a40;
+}
+
+footer.footer {
+  background-color: #212529;
+  color: #f9f6f1;
+  padding: 20px 0;
+  margin-top: auto;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #212529;
+}
+
+
+/* style.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #212529;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item:hover .gallery-img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffc107 !important;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+
+/* Genel body, min-height ve flex düzeni */
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+main {
+  flex: 1;
+}
+
+/* Accordion iconları için FontAwesome içerik */
+.accordion-button::after {
+  font-family: "Font Awesome 6 Free";
+  content: "\f107";
+  font-weight: 900;
+}
+.accordion-button:not(.collapsed)::after {
+  content: "\f106";
+}
+
+/* Accordion kutusu stil */
+.accordion-item {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: none;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+/* Başlık stili */
+h2 {
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 30px;
+}
+
+/* Accordion butonları */
+.accordion-button {
+  background-color: #fff;
+  font-weight: 500;
+  color: #212529;
+}
+.accordion-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Accordion içi body */
+.accordion-body {
+  background-color: #ffffff;
+}
+
+/* Navbar ve footer */
+.navbar {
+  background-color: #212529;
+}
+.navbar .nav-link:active,
+.navbar .nav-link.active {
+  color: #ffc107 !important; /* Sarı renk */
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: auto;
+}
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+
+
+.btn-custom {
+  background-color: #212529;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #ffc107;
+  color: #212529;
+}
