@@ -45,8 +45,8 @@ Web sitesi aşağıdaki temel sayfalardan oluşmaktadır:
 
 > İsteğe bağlı olarak ekran görüntüleri buraya eklenebilir. Örneğin:
 
-![Anasayfa Görseli](https://muhammedenesbostanci.github.io/Cafe-Sitesi/img/anasayfa.png)
-![Menü Sayfası](https://muhammedenesbostanci.github.io/Cafe-Sitesi/img/menu.png)
+![Anasayfa Görseli]([https://muhammedenesbostanci.github.io/Cafe-Sitesi/img/anasayfa.png](https://muhammedenesbostanci.github.io/Cafe-Sitesi/index.html))
+![Menü Sayfası]([https://muhammedenesbostanci.github.io/Cafe-Sitesi/img/menu.png](https://muhammedenesbostanci.github.io/Cafe-Sitesi/hizmetler.html))
 
 ---
 
